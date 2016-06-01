@@ -8,3 +8,8 @@ cordova platform add android
 cordova requirements
 
 setp1 and 2 ref http://cordova.apache.org/docs/en/dev/guide/cli/index.html
+### 3 copy wpionic file and add plugins
+copy & paste wpionic  hooks\ scss\ www\ package.json
+cordova plugin add cordova-plugin-crosswalk-webview
+cordova plugin add cordova-plugin-device
+cordova plugin add cordova-plugin-camera
